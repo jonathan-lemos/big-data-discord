@@ -2,7 +2,7 @@ import Discord from "discord.js";
 import API_TOKEN from "./token";
 
 // @ts-ignore
-if (API_TOKEN === "YOUR.API.TOKEN.HERE") {
+if (API_TOKEN === "YOUR_API_TOKEN_HERE") {
 	throw new Error("To use rolebot, you must generate a Discord API token and add it to token.ts");
 }
 
